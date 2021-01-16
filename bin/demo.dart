@@ -15,7 +15,12 @@ void main(List<String> arguments) {
   // List<String> list = ['1','2','3','4','5'];
   // print(list);
 
-  Map<String, int> map = { 'name': 1, 'lastName': 2};
-
-  print(map);
+  // Map<String, int> map = { 'name': 1, 'lastName': 2};
+  // print(map);
 }
+// Functions
+String helloWorld() {
+  return 'Hello World';
+}
+// short form
+String HelloWorld2() => 'Hello World';
