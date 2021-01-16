@@ -78,6 +78,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.5"
+  dart_browser_loader:
+    dependency: transitive
+    description:
+      name: dart_browser_loader
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.6+1"
+  facebook_web_sdk:
+    dependency: "direct main"
+    description:
+      name: facebook_web_sdk
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.9"
   file:
     dependency: transitive
     description:
@@ -191,7 +205,7 @@ packages:
     source: hosted
     version: "1.9.3"
   path:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path
       url: "https://pub.dartlang.org"

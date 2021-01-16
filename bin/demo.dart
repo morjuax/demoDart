@@ -1,4 +1,5 @@
 import 'package:demo/demo.dart' as demo;
+import 'package:facebook_web_sdk/facebook_web_sdk.dart';
 
 void main(List<String> arguments) {
   // String var1 = 'Hello World';
