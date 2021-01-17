@@ -27,5 +27,20 @@ void main() {
     });
   });
 
+  group('Test fail circle', () {
+    test('area failed to calculate', () {
+      Circle circle = Circle();
+      expect( () => circle.area(), throws);
+    });
+
+    test('perimeter failed to calculate', () {
+      Circle circle = Circle();
+      expect( () => circle.perimeter(), throws);
+    });
+
+  });
+  
+  // tearDown(() {})
+
 
 }

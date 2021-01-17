@@ -10,11 +10,13 @@ class Circle extends Point implements Area, Perimeter{
 
   @override
   double area() {
+    assert(radio!=null);
     return pi*radio*radio;
   }
 
   @override
   double perimeter() {
+    assert(radio!=null);
     return 2+radio+pi;
   }
 }
