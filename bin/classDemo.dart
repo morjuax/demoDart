@@ -26,3 +26,14 @@ class Cuadrado extends Point {
 
   Cuadrado({this.w, x, y, z}):super(x:x,y:y,z:z);
 }
+
+
+class Circle {
+
+  const Circle();
+
+  factory Circle.fromJson() {
+    return Circle();
+  }
+
+}
