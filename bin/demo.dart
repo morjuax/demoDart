@@ -1,5 +1,5 @@
 import 'package:demo/demo.dart' as demo;
-import 'package:facebook_web_sdk/facebook_web_sdk.dart';
+// import 'package:facebook_web_sdk/facebook_web_sdk.dart';
 
 void main(List<String> arguments) {
   // String var1 = 'Hello World';
@@ -18,6 +18,7 @@ void main(List<String> arguments) {
 
   // Map<String, int> map = { 'name': 1, 'lastName': 2};
   // print(map);
+  loopCustom();
 }
 // Functions
 String helloWorld() {
@@ -25,3 +26,21 @@ String helloWorld() {
 }
 // short form
 String HelloWorld2() => 'Hello World';
+
+
+// loops
+
+
+void loopCustom() {
+  // for(var i=0; i<10; i++) {
+  //   print(i);
+  // }
+  int num = 10;
+  int total = 1;
+  do {
+  total = total * num;
+  num--;
+  } while (num>= 1);
+  print(total);
+
+}
