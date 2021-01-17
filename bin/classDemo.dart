@@ -9,7 +9,7 @@ class Point {
   final double y;
   final double z;
 
-  Point({this.x=5.0, this.y, this.z=3.0}) {}
+  Point({this.x=5.0, this.y, this.z=3.0});
 
   Point.mitad({this.z}):this.x=z/2,this.y=z/2;
 
@@ -17,4 +17,12 @@ class Point {
     // this.z = x + y;
     return "${this.x}";
   }
+}
+
+
+
+class Cuadrado extends Point {
+  final double w;
+
+  Cuadrado({this.w, x, y, z}):super(x:x,y:y,z:z);
 }
